@@ -4,7 +4,8 @@
   "description": "Aplicación CRUD de productos con JWT y MongoDB Atlas",
   "main": "api/index.js",
   "scripts": {
-    "dev": "nodemon api/index.js"
+    "dev": "nodemon api/index.js",
+    "test": "jest --runInBand"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -19,9 +20,5 @@
     "jest": "^30.2.0",
     "nodemon": "^3.1.11",
     "supertest": "^7.2.2"
-  },
-  "scripts": {
-  "dev": "nodemon api/index.js",
-  "test": "jest --runInBand"
-   }
+  }
 }
